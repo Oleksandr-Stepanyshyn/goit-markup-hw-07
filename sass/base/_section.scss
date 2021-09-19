@@ -2,6 +2,12 @@
   padding: 94px 0;
 }
 
-.section-title {
+.section__title {
   text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+
+  color: var(--title-text-color);
 }

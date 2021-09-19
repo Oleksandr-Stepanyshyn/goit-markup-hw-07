@@ -1,7 +1,5 @@
 .social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexcenter();
   border-radius: 50%;
   fill: currentcolor;
   width: 44px;
