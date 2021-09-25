@@ -58,7 +58,12 @@
   margin-left: 10px;
 }
 
-.footer-social__icon {
+.footer-social__link {
+  @include flexcenter();
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
   fill: var(--primari-white-color);
   background-color: rgba(255, 255, 255, 0.1);
 

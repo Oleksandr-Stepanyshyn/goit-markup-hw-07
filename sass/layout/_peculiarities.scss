@@ -1,4 +1,4 @@
-.peculiarities__list {
+.peculiarities {
   display: flex;
 }
 
@@ -10,7 +10,7 @@
   margin-left: 30px;
 }
 
-.peculiarities__icon {
+.peculiarities__box {
   @include flexcenter();
   background-color: #f5f4fa;
   padding: 25px 0px;
